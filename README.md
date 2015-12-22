@@ -1,1 +1,1 @@
-# lifechanger-poc
+Lifechanger is yet another task tracker.
