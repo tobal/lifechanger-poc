@@ -1,17 +1,17 @@
 
 import {Component} from 'angular2/core';
+import {RouteConfig} from 'angular2/router';
+
+import {CharSheet} from './charsheet/charsheet';
 
 @Component({
 	selector: 'lifechanger-app',
 	providers: [],
-	directives: [],
+	directives: [CharSheet],
 	pipes: [],
 	styles: [],
 	template: require('./app.html')
 })
-// @RouteConfig([
-// 	{ path: '/', component: Home, name: 'Home' }
-// ])
 export class LifechangerApp {
 	constructor() { }
 }
