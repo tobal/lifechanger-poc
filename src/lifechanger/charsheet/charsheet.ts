@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
-// import {FORM_DIRECTIVES} from 'angular2/common';
-// import {Http} from 'angular2/http';
+
+import {Node} from './node'
 
 @Component({
   selector: 'charsheet',
@@ -11,12 +11,8 @@ import {Component} from 'angular2/core';
   template: require('./charsheet.html')
 })
 export class CharSheet {
-  sheet: Object;
+  sheet: Array<Node>;
   constructor() {
-    this.sheet = {
-      charclass: [],
-      attributes: [],
-      skills: []
-    };
+    this.sheet = [];
   }
 }
