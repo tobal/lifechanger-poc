@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
 
-import {Node} from './node'
+import {Node, NodeValue, NodeArray} from './node'
 
 @Component({
     selector: 'charsheet',
@@ -26,10 +26,16 @@ export class CharSheet {
     }
 
     addNodeToSheet() {
-        let node = new Node();
-        node.title = this.title;
-        node.value = this.nodeValue;
-        this.sheet.push(node);
+        if(this.type = 'value') {
+            let node = new NodeValue();
+            node.title = this.title;
+            node.value = this.nodeValue;
+            this.sheet.push(node);
+        } else {
+            let node = new NodeArray();
+            node.title = this.title;
+            this.sheet.push(node);
+        }
 
         this.title = '';
         this.type = '';
