@@ -26,16 +26,13 @@ export class CharSheet {
     }
 
     addNodeToSheet() {
+        var node: Node;
         if(this.type = 'value') {
-            let node = new NodeValue();
-            node.title = this.title;
-            node.value = this.nodeValue;
-            this.sheet.push(node);
+            node = new NodeValue(this.title, this.nodeValue);
         } else {
-            let node = new NodeArray();
-            node.title = this.title;
-            this.sheet.push(node);
+            node = new NodeArray(this.title);
         }
+        this.sheet.push(node);
 
         this.title = '';
         this.type = '';

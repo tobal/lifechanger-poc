@@ -1,19 +1,21 @@
 
 export class Node {
-	title: string;
+	constructor(public title = '') {}
 }
 
-export class NodeArray {
-	title: string;
+export class NodeArray extends Node {
 	subnodes: Array<Node>;
 	expanded: boolean;
-
-	addSubnode(node) {
-		this.subnodes.push(node);
+	constructor(public title = '') {
+		super(title);
+		this.subnodes = [];
+		this.expanded = false;
 	}
 }
 
-export class NodeValue {
-	title: string;
-	value: number;
+export class NodeValue extends Node {
+	constructor(public title = '', public value = 0) {
+		super(title);
+		this.value = value;
+	}
 }
