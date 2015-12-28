@@ -12,8 +12,17 @@ import {NodeView} from './node/nodeview';
 })
 export class CharSheet {
     sheet: NodeArray;
+    content: string;
     constructor() {
         this.sheet = new NodeArray('Character');
+    }
+
+    displayContent() {
+        this.content = JSON.stringify(this.sheet);
+    }
+
+    loadContent() {
+        this.sheet = JSON.parse(this.content);
     }
 
     // saveSheet() {

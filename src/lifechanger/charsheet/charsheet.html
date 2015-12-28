@@ -4,3 +4,12 @@
 <div>
 	<node-view [nodearray]='sheet'></node-view>
 </div>
+<div>
+	<textarea [(ngModel)]='content' rows='20' cols='80'></textarea>
+</div>
+<div>
+	<button (click)='displayContent()'>Display content</button>
+</div>
+<div>
+	<button (click)='loadContent()'>Load content</button>
+</div>
