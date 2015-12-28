@@ -2,21 +2,5 @@
 	<h1>Charsheet</h1>
 </div>
 <div>
-	<button *ngIf="!addFormVisible" (click)="formToggle()">Add</button>
-	<div *ngIf="addFormVisible">
-		<div>
-			title: <input type="text" [(ngModel)]="title">
-		</div>
-		<div>
-			type: <select [(ngModel)]="type">
-				<option value="value" selected="selected">value</option>
-				<option value="node">node</option>
-			</select>
-		</div>
-		<div *ngIf="typeIsValue()">
-			value: <input type="number" [(ngModel)]="nodeValue">
-		</div>
-		<button (click)="addNodeToSheet()">Add node</button>
-	</div>
+	<node-view [nodearray]='sheet'></node-view>
 </div>
-{{sheet | json}}

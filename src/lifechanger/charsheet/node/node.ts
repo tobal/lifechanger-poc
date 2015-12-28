@@ -4,12 +4,12 @@ export class Node {
 }
 
 export class NodeArray extends Node {
-	subnodes: Array<Node>;
-	expanded: boolean;
+	subnodes: Array<NodeArray>;
+	subvalues: Array<NodeValue>;
 	constructor(public title = '') {
 		super(title);
 		this.subnodes = [];
-		this.expanded = false;
+		this.subvalues = [];
 	}
 }
 

@@ -1,0 +1,29 @@
+<div>
+	<button *ngIf="!addFormVisible" (click)="formToggle()">Add</button>
+	<div *ngIf="addFormVisible">
+		<div>
+			title: <input type="text" [(ngModel)]="nodeTitle">
+		</div>
+		<div>
+			type: <select [(ngModel)]="nodeType">
+				<option value="value" selected="selected">value</option>
+				<option value="node">node</option>
+			</select>
+		</div>
+		<div *ngIf="typeIsValue()">
+			value: <input type="number" [(ngModel)]="nodeValue">
+		</div>
+		<button (click)="addNodeToArray()">Add node</button>
+	</div>
+	
+	<div *ngFor="#value of nodearray.subvalues">
+		<h3>{{value.title}} : {{value.value}}</h3>
+	</div>
+
+	<div *ngFor="#node of nodearray.subnodes">
+		<h3>{{node.title}} :</h3>
+		<div style='padding-left: 1em;'>
+			<node-view [nodearray]='node'></node-view>
+		</div>
+	</div>
+</div>

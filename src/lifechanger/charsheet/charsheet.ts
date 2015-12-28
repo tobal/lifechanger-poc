@@ -1,46 +1,16 @@
-import {Component} from 'angular2/core';
+import {Component, View} from 'angular2/core';
 
-import {Node, NodeValue, NodeArray} from './node'
+import {NodeArray} from './node/node'
+import {NodeView} from './node/nodeview'
 
 @Component({
     selector: 'charsheet',
-    directives: [],
-    providers: [],
-    pipes: [],
-    styles: [],
-    template: require('./charsheet.html')
+    template: require('./charsheet.html'),
+    directives: [NodeView]
 })
 export class CharSheet {
-    sheet: Array<Node>;
-    addFormVisible: boolean;
-    title: string;
-    type: string;
-    nodeValue: number;
+    sheet: NodeArray;
     constructor() {
-        this.sheet = [];
-        this.addFormVisible = false;
-    }
-
-    formToggle() {
-        this.addFormVisible = !this.addFormVisible;
-    }
-
-    addNodeToSheet() {
-        var node: Node;
-        if(this.type = 'value') {
-            node = new NodeValue(this.title, this.nodeValue);
-        } else {
-            node = new NodeArray(this.title);
-        }
-        this.sheet.push(node);
-
-        this.title = '';
-        this.type = '';
-        this.nodeValue = 0;
-        this.addFormVisible = false;
-    }
-
-    typeIsValue() {
-        return this.type === 'value';
+        this.sheet = new NodeArray('Character');
     }
 }
