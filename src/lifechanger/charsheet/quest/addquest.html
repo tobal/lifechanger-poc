@@ -1,6 +1,35 @@
 <div>
 	<button *ngIf='!addFormVisible' (click)='showAddQuestForm()'>Add new quest</button>
 	<div *ngIf='addFormVisible'>
+		<div>
+			Quest title: <input type="text" [(ngModel)]="questTitle">
+		</div>
+		<div>
+			Description: <textarea [(ngModel)]='questDescription' rows='3' cols='30'></textarea>
+		</div>
+		<div>
+			Quest type: <select [(ngModel)]="questType">
+				<option value="social">social</option>
+				<option value="learning">learning</option>
+				<option value="practice">practice</option>
+				<option value="project" selected="selected">project</option>
+				<option value="crafting">crafting</option>
+				<option value="adventure">adventure</option>
+				<option value="working">working</option>
+			</select>
+		</div>
+		<div>
+			Rewards:
+			<div>{{questRewards | json}}</div>
+			<select [(ngModel)]="questRewardNode">
+				<option *ngFor='#sheetValue of sheetValues' value='{{sheetValue.node}}'>
+					{{sheetValue.caption}}
+				</option>
+			</select>
+			value to add: <input type="number" [(ngModel)]="questRewardValue">
+			<button (click)='addReward()'>Add reward</button>
+		</div>
 		<button (click)='addQuest()'>Add quest</button>
 	</div>
+	{{questarray | json}}
 </div>
