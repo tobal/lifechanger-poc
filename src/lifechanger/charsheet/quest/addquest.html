@@ -1,0 +1,6 @@
+<div>
+	<button *ngIf='!addFormVisible' (click)='showAddQuestForm()'>Add new quest</button>
+	<div *ngIf='addFormVisible'>
+		<button (click)='addQuest()'>Add quest</button>
+	</div>
+</div>

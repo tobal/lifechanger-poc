@@ -1,20 +1,25 @@
+
 import {Component, View} from 'angular2/core';
 
 import {NodeArray} from './node/node';
 import {NodeView} from './node/nodeview';
+import {AddQuest} from './quest/addquest';
+import {Quest} from './quest/quest';
 
 // import {readJson, writeJson} from 'typings/dist/utils/fs';
 
 @Component({
     selector: 'charsheet',
     template: require('./charsheet.html'),
-    directives: [NodeView]
+    directives: [NodeView, AddQuest]
 })
 export class CharSheet {
     sheet: NodeArray;
+    questarray: Array<Quest>;
     content: string;
     constructor() {
         this.sheet = new NodeArray('Character');
+        this.questarray = [];
     }
 
     displayContent() {
