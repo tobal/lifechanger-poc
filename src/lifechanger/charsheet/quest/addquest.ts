@@ -35,7 +35,8 @@ export class AddQuest {
     }
 
     updateSheetValues() {
-        this.sheetValues = [new SheetValue(new NodeValue('asd', 3), 'caption')];
+        this.sheetValues = [];
+        gatherValuesFromNodeArray(this.sheet, '', this.sheetValues);
     }
 
     addQuest() {
@@ -56,4 +57,14 @@ export class AddQuest {
 
 class SheetValue {
     constructor(public node: NodeValue, public caption: string) {}
+}
+
+function gatherValuesFromNodeArray(nodeArray: NodeArray, caption: string, sheetValues: Array<SheetValue>) {
+    nodeArray.subvalues.forEach(function(value) {
+        sheetValues.push(new SheetValue(value, caption + ' > ' + value.title));
+    });
+    nodeArray.subnodes.forEach(function(node) {
+        let newCaption = caption + ' > ' + node.title;
+        gatherValuesFromNodeArray(node, newCaption, sheetValues);
+    });
 }
