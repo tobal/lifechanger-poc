@@ -439,7 +439,7 @@
                         "subnodes": [],
                         "subvalues": [
                             {
-                                "title": "Weekliy planning",
+                                "title": "Weekly planning",
                                 "value": 0
                             }
                         ]
@@ -460,5 +460,17 @@
         ],
         "subvalues": []
     },
-    "quests": []
+    "quests": [
+        {
+            "title": "Plan next week",
+            "description": "Jan 04",
+            "type": "",
+            "rewards": [
+                {
+                    "path": "Good habits,Organizing life,Weekly planning",
+                    "rewardValue": 1
+                }
+            ]
+        }
+    ]
 }
