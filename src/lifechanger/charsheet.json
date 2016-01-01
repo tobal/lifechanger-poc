@@ -1,435 +1,438 @@
 {
-    "title": "Character",
-    "subnodes": [
-        {
-            "title": "Class",
-            "subnodes": [
-                {
-                    "title": "Jedi",
-                    "subnodes": [],
-                    "subvalues": [
-                        {
-                            "title": "Decker",
-                            "value": 3
-                        },
-                        {
-                            "title": "Shaman",
-                            "value": 6
-                        },
-                        {
-                            "title": "Ninja",
-                            "value": 1
-                        }
-                    ]
-                }
-            ],
-            "subvalues": []
-        },
-        {
-            "title": "Attributes",
-            "subnodes": [
-                {
-                    "title": "Physical",
-                    "subnodes": [],
-                    "subvalues": [
-                        {
-                            "title": "Fitness",
-                            "value": 4
-                        },
-                        {
-                            "title": "Looks",
-                            "value": 2
-                        },
-                        {
-                            "title": "Higiene",
-                            "value": 3
-                        }
-                    ]
-                },
-                {
-                    "title": "Mental",
-                    "subnodes": [],
-                    "subvalues": [
-                        {
-                            "title": "Intelligence",
-                            "value": 10
-                        },
-                        {
-                            "title": "Charisma",
-                            "value": 1
-                        }
-                    ]
-                },
-                {
-                    "title": "Spiritual",
-                    "subnodes": [],
-                    "subvalues": [
-                        {
-                            "title": "Wisdom",
-                            "value": 14
-                        },
-                        {
-                            "title": "Balance",
-                            "value": 6
-                        }
-                    ]
-                }
-            ],
-            "subvalues": []
-        },
-        {
-            "title": "Skills",
-            "subnodes": [
-                {
-                    "title": "Physical skills",
-                    "subnodes": [
-                        {
-                            "title": "Martial arts",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Wing Tsun Kung Fu",
-                                    "value": 12
-                                },
-                                {
-                                    "title": "Scimitar fencing",
-                                    "value": 6
-                                },
-                                {
-                                    "title": "Archery",
-                                    "value": 4
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Erotic",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Yoni massage",
-                                    "value": 3
-                                },
-                                {
-                                    "title": "Extended Sexual Orgasm",
-                                    "value": 2
-                                },
-                                {
-                                    "title": "Squirt massage",
-                                    "value": 6
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Freerunning",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Wallclimbing",
-                                    "value": 3
-                                },
-                                {
-                                    "title": "Rollerblading",
-                                    "value": 2
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Dance",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Shuffle",
-                                    "value": 5
-                                },
-                                {
-                                    "title": "DDR",
-                                    "value": 3
-                                }
-                            ]
-                        }
-                    ],
-                    "subvalues": []
-                },
-                {
-                    "title": "Mental skills",
-                    "subnodes": [
-                        {
-                            "title": "Computer science",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Computing theory",
-                                    "value": 4
-                                },
-                                {
-                                    "title": "AI / Data science",
-                                    "value": 6
-                                },
-                                {
-                                    "title": "Programming",
-                                    "value": 10
-                                },
-                                {
-                                    "title": "Hacking",
-                                    "value": 4
-                                },
-                                {
-                                    "title": "System administration",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Electronic music",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Theory of sound design",
-                                    "value": 4
-                                },
-                                {
-                                    "title": "Analogue modular synthesizers",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Electronics",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "PCB design",
-                                    "value": 1
-                                },
-                                {
-                                    "title": "PCB building",
-                                    "value": 3
-                                },
-                                {
-                                    "title": "Embedded systems",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Simulators",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Civic aviation",
-                                    "value": 6
-                                },
-                                {
-                                    "title": "Black Shark",
-                                    "value": 2
-                                },
-                                {
-                                    "title": "Su-25T",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Sciences",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Physics",
-                                    "value": 3
-                                },
-                                {
-                                    "title": "Mathematics",
-                                    "value": 3
-                                },
-                                {
-                                    "title": "Astronomy",
-                                    "value": 1
-                                },
-                                {
-                                    "title": "Biology",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Languages",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Hungarian",
-                                    "value": 16
-                                },
-                                {
-                                    "title": "English",
-                                    "value": 8
-                                }
-                            ]
-                        }
-                    ],
-                    "subvalues": []
-                },
-                {
-                    "title": "Spiritual skills",
-                    "subnodes": [
-                        {
-                            "title": "Artistic",
-                            "subnodes": [
-                                {
-                                    "title": "Cooking",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Wok",
-                                            "value": 5
-                                        },
-                                        {
-                                            "title": "Sushi",
-                                            "value": 1
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "Music",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Harmonica",
-                                            "value": 3
-                                        },
-                                        {
-                                            "title": "Korg ESX-1",
-                                            "value": 3
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "Arts",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Pencil drawing",
-                                            "value": 6
-                                        }
-                                    ]
-                                }
-                            ],
-                            "subvalues": []
-                        },
-                        {
-                            "title": "Esoteric",
-                            "subnodes": [
-                                {
-                                    "title": "Chaos magic",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Demon hunting",
-                                            "value": 8
-                                        },
-                                        {
-                                            "title": "Reality bending",
-                                            "value": 1
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "Meditation",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Zazen meditation",
-                                            "value": 4
-                                        },
-                                        {
-                                            "title": "Suspension",
-                                            "value": 2
-                                        }
-                                    ]
-                                },
-                                {
-                                    "title": "White magic",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Rituals",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ],
-                            "subvalues": []
-                        },
-                        {
-                            "title": "Spiritual knowledge",
-                            "subnodes": [
-                                {
-                                    "title": "Religions",
-                                    "subnodes": [],
-                                    "subvalues": [
-                                        {
-                                            "title": "Buddhism",
-                                            "value": 10
-                                        },
-                                        {
-                                            "title": "Christianity",
-                                            "value": 8
-                                        }
-                                    ]
-                                }
-                            ],
-                            "subvalues": [
-                                {
-                                    "title": "Consciousness",
-                                    "value": 14
-                                },
-                                {
-                                    "title": "Altered mind states",
-                                    "value": 12
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Philosophy",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Cyberpunk",
-                                    "value": 16
-                                },
-                                {
-                                    "title": "Buddhist",
-                                    "value": 12
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Games",
-                            "subnodes": [],
-                            "subvalues": [
-                                {
-                                    "title": "Adventure games",
-                                    "value": 10
-                                },
-                                {
-                                    "title": "Creative games",
-                                    "value": 10
-                                },
-                                {
-                                    "title": "Role playing games",
-                                    "value": 8
-                                },
-                                {
-                                    "title": "Go",
-                                    "value": 2
-                                }
-                            ]
-                        }
-                    ],
-                    "subvalues": []
-                }
-            ],
-            "subvalues": []
-        }
-    ],
-    "subvalues": []
+    "sheet": {
+        "title": "Character",
+        "subnodes": [
+            {
+                "title": "Class",
+                "subnodes": [
+                    {
+                        "title": "Jedi",
+                        "subnodes": [],
+                        "subvalues": [
+                            {
+                                "title": "Decker",
+                                "value": 3
+                            },
+                            {
+                                "title": "Shaman",
+                                "value": 6
+                            },
+                            {
+                                "title": "Ninja",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ],
+                "subvalues": []
+            },
+            {
+                "title": "Attributes",
+                "subnodes": [
+                    {
+                        "title": "Physical",
+                        "subnodes": [],
+                        "subvalues": [
+                            {
+                                "title": "Fitness",
+                                "value": 4
+                            },
+                            {
+                                "title": "Looks",
+                                "value": 2
+                            },
+                            {
+                                "title": "Higiene",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Mental",
+                        "subnodes": [],
+                        "subvalues": [
+                            {
+                                "title": "Intelligence",
+                                "value": 10
+                            },
+                            {
+                                "title": "Charisma",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Spiritual",
+                        "subnodes": [],
+                        "subvalues": [
+                            {
+                                "title": "Wisdom",
+                                "value": 14
+                            },
+                            {
+                                "title": "Balance",
+                                "value": 6
+                            }
+                        ]
+                    }
+                ],
+                "subvalues": []
+            },
+            {
+                "title": "Skills",
+                "subnodes": [
+                    {
+                        "title": "Physical skills",
+                        "subnodes": [
+                            {
+                                "title": "Martial arts",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Wing Tsun Kung Fu",
+                                        "value": 12
+                                    },
+                                    {
+                                        "title": "Scimitar fencing",
+                                        "value": 6
+                                    },
+                                    {
+                                        "title": "Archery",
+                                        "value": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Erotic",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Yoni massage",
+                                        "value": 3
+                                    },
+                                    {
+                                        "title": "Extended Sexual Orgasm",
+                                        "value": 2
+                                    },
+                                    {
+                                        "title": "Squirt massage",
+                                        "value": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Freerunning",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Wallclimbing",
+                                        "value": 3
+                                    },
+                                    {
+                                        "title": "Rollerblading",
+                                        "value": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Dance",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Shuffle",
+                                        "value": 5
+                                    },
+                                    {
+                                        "title": "DDR",
+                                        "value": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "subvalues": []
+                    },
+                    {
+                        "title": "Mental skills",
+                        "subnodes": [
+                            {
+                                "title": "Computer science",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Computing theory",
+                                        "value": 4
+                                    },
+                                    {
+                                        "title": "AI / Data science",
+                                        "value": 6
+                                    },
+                                    {
+                                        "title": "Programming",
+                                        "value": 10
+                                    },
+                                    {
+                                        "title": "Hacking",
+                                        "value": 4
+                                    },
+                                    {
+                                        "title": "System administration",
+                                        "value": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Electronic music",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Theory of sound design",
+                                        "value": 4
+                                    },
+                                    {
+                                        "title": "Analogue modular synthesizers",
+                                        "value": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Electronics",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "PCB design",
+                                        "value": 1
+                                    },
+                                    {
+                                        "title": "PCB building",
+                                        "value": 3
+                                    },
+                                    {
+                                        "title": "Embedded systems",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Simulators",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Civic aviation",
+                                        "value": 6
+                                    },
+                                    {
+                                        "title": "Black Shark",
+                                        "value": 2
+                                    },
+                                    {
+                                        "title": "Su-25T",
+                                        "value": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Sciences",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Physics",
+                                        "value": 3
+                                    },
+                                    {
+                                        "title": "Mathematics",
+                                        "value": 3
+                                    },
+                                    {
+                                        "title": "Astronomy",
+                                        "value": 1
+                                    },
+                                    {
+                                        "title": "Biology",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Languages",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Hungarian",
+                                        "value": 16
+                                    },
+                                    {
+                                        "title": "English",
+                                        "value": 8
+                                    }
+                                ]
+                            }
+                        ],
+                        "subvalues": []
+                    },
+                    {
+                        "title": "Spiritual skills",
+                        "subnodes": [
+                            {
+                                "title": "Artistic",
+                                "subnodes": [
+                                    {
+                                        "title": "Cooking",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Wok",
+                                                "value": 5
+                                            },
+                                            {
+                                                "title": "Sushi",
+                                                "value": 1
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "Music",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Harmonica",
+                                                "value": 3
+                                            },
+                                            {
+                                                "title": "Korg ESX-1",
+                                                "value": 3
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "Arts",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Pencil drawing",
+                                                "value": 6
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "subvalues": []
+                            },
+                            {
+                                "title": "Esoteric",
+                                "subnodes": [
+                                    {
+                                        "title": "Chaos magic",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Demon hunting",
+                                                "value": 8
+                                            },
+                                            {
+                                                "title": "Reality bending",
+                                                "value": 1
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "Meditation",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Zazen meditation",
+                                                "value": 4
+                                            },
+                                            {
+                                                "title": "Suspension",
+                                                "value": 2
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "White magic",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Rituals",
+                                                "value": 2
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "subvalues": []
+                            },
+                            {
+                                "title": "Spiritual knowledge",
+                                "subnodes": [
+                                    {
+                                        "title": "Religions",
+                                        "subnodes": [],
+                                        "subvalues": [
+                                            {
+                                                "title": "Buddhism",
+                                                "value": 10
+                                            },
+                                            {
+                                                "title": "Christianity",
+                                                "value": 8
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "subvalues": [
+                                    {
+                                        "title": "Consciousness",
+                                        "value": 14
+                                    },
+                                    {
+                                        "title": "Altered mind states",
+                                        "value": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Philosophy",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Cyberpunk",
+                                        "value": 16
+                                    },
+                                    {
+                                        "title": "Buddhist",
+                                        "value": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Games",
+                                "subnodes": [],
+                                "subvalues": [
+                                    {
+                                        "title": "Adventure games",
+                                        "value": 10
+                                    },
+                                    {
+                                        "title": "Creative games",
+                                        "value": 10
+                                    },
+                                    {
+                                        "title": "Role playing games",
+                                        "value": 8
+                                    },
+                                    {
+                                        "title": "Go",
+                                        "value": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "subvalues": []
+                    }
+                ],
+                "subvalues": []
+            }
+        ],
+        "subvalues": []
+    },
+    "quests": []
 }
