@@ -23,11 +23,17 @@ export class CharSheet {
     }
 
     displayContent() {
-        this.content = JSON.stringify(this.sheet);
+        let contentObj = {
+            sheet: this.sheet,
+            quests: this.questarray
+        };
+        this.content = JSON.stringify(contentObj);
     }
 
     loadContent() {
-        this.sheet = JSON.parse(this.content);
+        let contentObj = JSON.parse(this.content);
+        this.sheet = contentObj.sheet;
+        this.questarray = contentObj.quests;
     }
 
     // saveSheet() {
