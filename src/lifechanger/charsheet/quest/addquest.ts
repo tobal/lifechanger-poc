@@ -21,7 +21,7 @@ export class AddQuest {
     questDescription: string = '';
     questType: string = '';
     questRewards: Array<QuestReward>;
-    questRewardNode: NodeValue;
+    questRewardPath: string = '';
     questRewardValue: number = 0;
 
     constructor() {
@@ -49,8 +49,8 @@ export class AddQuest {
     }
 
     addReward() {
-        this.questRewards.push(new QuestReward(this.questRewardNode, this.questRewardValue));
-        this.questRewardNode = undefined;
+        this.questRewards.push(new QuestReward(this.questRewardPath, this.questRewardValue));
+        this.questRewardPath = '';
         this.questRewardValue = 0;
     }
 

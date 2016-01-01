@@ -21,7 +21,7 @@
 		<div>
 			Rewards:
 			<div>{{questRewards | json}}</div>
-			<select [(ngModel)]="questRewardNode">
+			<select [(ngModel)]="questRewardPath">
 				<option *ngFor='#sheetValue of sheetValues' value='{{sheetValue.path}}'>
 					{{getSheetValueCaption(sheetValue)}}
 				</option>

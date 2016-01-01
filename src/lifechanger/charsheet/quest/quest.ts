@@ -1,6 +1,4 @@
 
-import {NodeValue} from '../node/node'
-
 export class Quest {
     constructor(public title: string = '',
     			public description: string = '',
@@ -9,5 +7,5 @@ export class Quest {
 }
 
 export class QuestReward {
-	constructor(public node: NodeValue, public rewardValue: number) {}
+	constructor(public path: string, public rewardValue: number) {}
 }
