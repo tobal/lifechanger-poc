@@ -430,6 +430,32 @@
                     }
                 ],
                 "subvalues": []
+            },
+            {
+                "title": "Good habits",
+                "subnodes": [
+                    {
+                        "title": "Organizing life",
+                        "subnodes": [],
+                        "subvalues": [
+                            {
+                                "title": "Weekliy planning",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Health",
+                        "subnodes": [],
+                        "subvalues": []
+                    },
+                    {
+                        "title": "Social habits",
+                        "subnodes": [],
+                        "subvalues": []
+                    }
+                ],
+                "subvalues": []
             }
         ],
         "subvalues": []
