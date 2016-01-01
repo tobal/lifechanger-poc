@@ -36,7 +36,7 @@ export class AddQuest {
 
     updateSheetValues() {
         this.sheetValues = [];
-        gatherValuesFromNodeArray(this.sheet, '', this.sheetValues);
+        gatherValuesFromNodeArray(this.sheet, [], this.sheetValues);
     }
 
     addQuest() {
@@ -53,18 +53,21 @@ export class AddQuest {
         this.questRewardNode = undefined;
         this.questRewardValue = 0;
     }
+
+    getSheetValueCaption(sheetValue: SheetValue) {
+        return sheetValue.path.join(' > ');
+    }
 }
 
 class SheetValue {
-    constructor(public node: NodeValue, public caption: string) {}
+    constructor(public path: Array<string>) { }
 }
 
-function gatherValuesFromNodeArray(nodeArray: NodeArray, caption: string, sheetValues: Array<SheetValue>) {
+function gatherValuesFromNodeArray(nodeArray: NodeArray, path: Array<string>, sheetValues: Array<SheetValue>) {
     nodeArray.subvalues.forEach(function(value) {
-        sheetValues.push(new SheetValue(value, caption + ' > ' + value.title));
+        sheetValues.push(new SheetValue(path.concat(value.title)));
     });
     nodeArray.subnodes.forEach(function(node) {
-        let newCaption = caption + ' > ' + node.title;
-        gatherValuesFromNodeArray(node, newCaption, sheetValues);
+        gatherValuesFromNodeArray(node, path.concat(node.title), sheetValues);
     });
 }

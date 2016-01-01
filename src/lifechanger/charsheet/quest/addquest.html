@@ -22,8 +22,8 @@
 			Rewards:
 			<div>{{questRewards | json}}</div>
 			<select [(ngModel)]="questRewardNode">
-				<option *ngFor='#sheetValue of sheetValues' value='{{sheetValue.node}}'>
-					{{sheetValue.caption}}
+				<option *ngFor='#sheetValue of sheetValues' value='{{sheetValue.path}}'>
+					{{getSheetValueCaption(sheetValue)}}
 				</option>
 			</select>
 			value to add: <input type="number" [(ngModel)]="questRewardValue">
