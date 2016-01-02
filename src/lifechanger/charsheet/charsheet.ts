@@ -5,13 +5,14 @@ import {NodeArray} from './node/node';
 import {NodeView} from './node/nodeview';
 import {AddQuest} from './quest/addquest';
 import {Quest} from './quest/quest';
+import {QuestView} from './quest/questview';
 
 // import {readJson, writeJson} from 'typings/dist/utils/fs';
 
 @Component({
     selector: 'charsheet',
     template: require('./charsheet.html'),
-    directives: [NodeView, AddQuest]
+    directives: [NodeView, AddQuest, QuestView]
 })
 export class CharSheet {
     sheet: NodeArray;

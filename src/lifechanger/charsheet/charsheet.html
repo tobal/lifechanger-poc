@@ -1,14 +1,16 @@
 <div>
+	<h1>Quests</h1>
+</div>
+<quest-view [quests]='questarray'></quest-view>
+
+<addquest [questarray]='questarray' [sheet]='sheet'></addquest>
+
+<div>
 	<h1>Charsheet</h1>
 </div>
 <div>
 	<node-view [nodearray]='sheet'></node-view>
 </div>
-
-<div>
-	<h1>Quests</h1>
-</div>
-<addquest [questarray]='questarray' [sheet]='sheet'></addquest>
 
 <div>
 	<textarea [(ngModel)]='content' rows='20' cols='80'></textarea>

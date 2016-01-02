@@ -1,0 +1,13 @@
+
+<div *ngFor="#quest of quests">
+	<h3>{{quest.title}}</h3>
+	<div>
+		{{quest.description}}
+	</div>
+	<div>
+		Type: {{quest.type}}
+	</div>
+	<div *ngFor="#reward of quest.rewards">
+		{{reward.path}} : {{reward.rewardValue}}
+	</div>
+</div>
