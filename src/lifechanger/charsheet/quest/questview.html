@@ -10,4 +10,7 @@
 	<div *ngFor="#reward of quest.rewards">
 		{{reward.path}} : {{reward.rewardValue}}
 	</div>
+	<div>
+		<button (click)='completeQuest(quest)'>Complete quest</button>
+	</div>
 </div>
