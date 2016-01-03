@@ -3,13 +3,13 @@
 </div>
 <quest-view [quests]='questarray'></quest-view>
 
-<addquest [questarray]='questarray' [sheet]='sheet'></addquest>
+<addquest [questarray]='questarray' [sheet]='getSheet()'></addquest>
 
 <div>
 	<h1>Charsheet</h1>
 </div>
 <div>
-	<node-view [nodearray]='sheet'></node-view>
+	<node-view [nodearray]='getSheet()'></node-view>
 </div>
 
 <div>

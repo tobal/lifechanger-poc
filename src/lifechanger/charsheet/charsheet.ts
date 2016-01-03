@@ -1,11 +1,11 @@
 
 import {Component, View} from 'angular2/core';
 
-import {NodeArray} from './node/node';
 import {NodeView} from './node/nodeview';
 import {AddQuest} from './quest/addquest';
 import {Quest} from './quest/quest';
 import {QuestView} from './quest/questview';
+import {SheetService} from './sheetservice'
 
 // import {readJson, writeJson} from 'typings/dist/utils/fs';
 
@@ -15,17 +15,19 @@ import {QuestView} from './quest/questview';
     directives: [NodeView, AddQuest, QuestView]
 })
 export class CharSheet {
-    sheet: NodeArray;
     questarray: Array<Quest>;
     content: string;
-    constructor() {
-        this.sheet = new NodeArray('Character');
+    constructor(public sheetService: SheetService) {
         this.questarray = [];
+    }
+
+    getSheet() {
+        return this.sheetService.getSheet();
     }
 
     displayContent() {
         let contentObj = {
-            sheet: this.sheet,
+            sheet: this.sheetService.getSheet(),
             quests: this.questarray
         };
         this.content = JSON.stringify(contentObj);
@@ -33,7 +35,7 @@ export class CharSheet {
 
     loadContent() {
         let contentObj = JSON.parse(this.content);
-        this.sheet = contentObj.sheet;
+        this.sheetService.setSheet(contentObj.sheet);
         this.questarray = contentObj.quests;
     }
 
